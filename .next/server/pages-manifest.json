@@ -1,9 +1,5 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/properties": "pages/properties.js",
-  "/api/latest": "pages/api/latest.js",
-  "/404": "pages/404.js",
-  "/api/properties": "pages/api/properties.js"
+  "/_document": "pages/_document.js"
 }
