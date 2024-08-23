@@ -1,15 +1,15 @@
-import Button from './button';
-import styles from './latest-properties.module.css';
-import PropertyListing from './property-listing';
-import Title from './title';
+import Button from "./button";
+import styles from "./latest-properties.module.css";
+import PropertyListing from "./bikini-listing";
+import Title from "./title";
 
-export default function LatestProperties({ data, error, isLoading }) {
+export default function LatestBikinis({ data, error, isLoading }) {
   return (
     <div className={styles.container}>
-      <Title h2>Últimas propiedades</Title>
+      <Title h2>Últimas modelos</Title>
       <PropertyListing data={data} error={error} isLoading={isLoading} />
       <Button href="/properties" lg center>
-        Ver más propiedades
+        Ver más
       </Button>
     </div>
   );

@@ -1,6 +1,6 @@
-import styles from './properties-container.module.css';
-import PropertyListing from './property-listing';
-import Title from './title';
+import styles from "./properties-container.module.css";
+import PropertyListing from "./bikini-listing";
+import Title from "./title";
 
 export default function PropertiesContainer({ title, data, error, isLoading }) {
   return (
