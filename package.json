@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy:preview": "vercel",
+    "deploy:prod": "vercel --prod",
+    "deploy:all": "npm run deploy:preview && npm run deploy:prod"
   },
   "dependencies": {
     "next": "^12.2.1",
