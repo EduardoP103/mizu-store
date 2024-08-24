@@ -2,5 +2,17 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/properties": "pages/properties.js"
+  "/404": "pages/404.html",
+  "/500": "pages/500.html",
+  "/api/latest": "pages/api/latest.js",
+  "/api/properties": "pages/api/properties.js",
+  "/api/property/[id]": "pages/api/property/[id].js",
+  "/departments": "pages/departments.html",
+  "/houses": "pages/houses.html",
+  "/": "pages/index.html",
+  "/offices": "pages/offices.html",
+  "/properties": "pages/properties.html",
+  "/rent": "pages/rent.html",
+  "/sale": "pages/sale.html",
+  "/property/[id]": "pages/property/[id].js"
 }
