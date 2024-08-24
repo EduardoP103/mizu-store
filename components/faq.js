@@ -2,19 +2,24 @@ import styles from './faq.module.css';
 
 const faqs = [
   {
-    question: '¿Cuál es el proceso de compra de una vivienda?',
+    question: '¿Cómo puedo comprar un polo?',
     answer:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Es muy sencillo. Elige el polo que te gusta y contáctanos a través de WhatsApp para confirmar la disponibilidad. Luego, te enviaremos los detalles para el pago y la entrega.',
   },
   {
-    question: '¿Cómo puedo saber cuánto puedo pagar?',
+    question: '¿Cuáles son los métodos de pago disponibles?',
     answer:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Puedes realizar el pago mediante transferencia bancaria a nuestras cuentas en BCP o BBVA. Los números de cuenta son: BCP: 0011010000 y BBVA: 0011010000.',
   },
   {
-    question: '¿Cómo puedo encontrar la casa adecuada para mí?',
+    question: '¿Cuánto tiempo tarda en llegar mi pedido?',
     answer:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'El tiempo de entrega depende de tu ubicación. Ofrecemos delivery gratuito en todo Huacho, y los pedidos se entregan generalmente en un plazo de 2 a 5 días hábiles. Para otras zonas, consulta con nosotros.',
+  },
+  {
+    question: '¿Puedo cambiar o devolver un polo?',
+    answer:
+      'Sí, aceptamos cambios y devoluciones dentro de los 7 días posteriores a la entrega, siempre que el polo esté en perfectas condiciones. Contáctanos por WhatsApp para gestionar el proceso.',
   },
 ];
 

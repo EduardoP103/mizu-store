@@ -1,9 +1,9 @@
-import PropertiesContainer from '@/components/properties-container';
-import { useFetch } from 'hooks/useFetch';
-import Head from 'next/head';
+import PropertiesContainer from "@/components/properties-container";
+import { useFetch } from "hooks/useFetch";
+import Head from "next/head";
 
 export default function Properties() {
-  const { data, error, isLoading } = useFetch('/api/properties');
+  const { data, error, isLoading } = useFetch("/api/properties");
 
   return (
     <>

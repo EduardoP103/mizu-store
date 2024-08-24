@@ -1,13 +1,13 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Badge from './badge';
-import styles from './property-item.module.css';
+import Image from "next/image";
+import Link from "next/link";
+import Badge from "./badge";
+import styles from "./property-item.module.css";
 
 export default function PropertyItem({ property }) {
   const {
     images,
     title,
-    address,
+    color,
     price,
     area,
     bedrooms,
@@ -18,22 +18,22 @@ export default function PropertyItem({ property }) {
 
   const translatedStatus = (status) => {
     switch (status) {
-      case 'sale':
-        return 'Venta';
-      case 'rent':
-        return 'Renta';
+      case "sale":
+        return "Venta";
+      case "ofert":
+        return "Oferta";
       default:
     }
   };
 
   const translatedType = (type) => {
     switch (type) {
-      case 'department':
-        return 'Departamento';
-      case 'house':
-        return 'Casa';
-      case 'office':
-        return 'Oficina';
+      case "oversize":
+        return "Oversize";
+      case "house":
+        return "Casa";
+      case "office":
+        return "Oficina";
       default:
     }
   };
@@ -41,7 +41,7 @@ export default function PropertyItem({ property }) {
   return (
     <Link href={`/property/${property.id}`}>
       <a className={styles.container}>
-        <div className={styles['image-container']}>
+        <div className={styles["image-container"]}>
           <Image
             src={images[0]}
             alt=""
@@ -53,23 +53,23 @@ export default function PropertyItem({ property }) {
           </div>
         </div>
 
-        <div className={styles['info-container']}>
-          <div className={styles['title-container']}>
+        <div className={styles["info-container"]}>
+          <div className={styles["title-container"]}>
             <h3 className={styles.title}>{title}</h3>
             <Badge primary>{translatedStatus(status)}</Badge>
           </div>
-          <div className={styles['data-container']}>
+          <div className={styles["data-container"]}>
             <div>
-              <p className={styles.address}>{address}</p>
-              <p className={styles.price}>Desde S/.{price} SOL</p>
+              <p className={styles.color}>{color}</p>
+              <p className={styles.price}>S/.{price} SOL</p>
             </div>
             <div className={styles.badges}>
-              <Badge secondary>Desde</Badge>
-              <Badge secondary>{area} m²</Badge>
+              <Badge secondary>Tallas:</Badge>
+              <Badge secondary>{area}</Badge>
               {bedrooms && <Badge secondary>{bedrooms} rec.</Badge>}
               {bathrooms && (
                 <Badge secondary>
-                  {`${bathrooms} ${bathrooms < 2 ? 'baño' : 'baños'}`}
+                  {`${bathrooms} ${bathrooms < 2 ? "baño" : "baños"}`}
                 </Badge>
               )}
             </div>

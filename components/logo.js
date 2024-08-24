@@ -1,4 +1,4 @@
-import logo from '@/public/homely.svg';
+import logo from '@/public/logo-mizu.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './logo.module.css';

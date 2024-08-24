@@ -1,35 +1,35 @@
-import menuIcon from '@/public/menu-icon.svg';
-import Image from 'next/image';
-import Link from 'next/link';
-import { useState } from 'react';
-import Logo from './logo';
-import styles from './navbar.module.css';
+import menuIcon from "@/public/menu-icon.svg";
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
+import Logo from "./logo";
+import styles from "./navbar.module.css";
 
+// navbar horizontal
 const menu = [
   {
-    title: 'Propiedades',
-    path: '/properties',
+    title: "Polos",
+    path: "/properties",
   },
   {
-    title: 'Venta',
-    path: '/sale',
+    title: "Poleras",
+    path: "/",
+    // path: "/departments",
   },
   {
-    title: 'Renta',
-    path: '/rent',
+    title: "Bikinis",
+    path: "/",
+    // path: "/houses",
   },
   {
-    title: 'Departamentos',
-    path: '/departments',
+    title: "Casacas",
+    path: "/",
+    // path: "/offices",
   },
-  {
-    title: 'Casas',
-    path: '/houses',
-  },
-  {
-    title: 'Oficinas',
-    path: '/offices',
-  },
+  // {
+  //   title: "Venta",
+  //   path: "/sale",
+  // },
 ];
 
 export default function Navbar() {
@@ -44,14 +44,14 @@ export default function Navbar() {
         <nav className={styles.navbar}>
           <Logo />
 
-          <div onClick={handleOpen} className={styles['menu-icon']}>
+          <div onClick={handleOpen} className={styles["menu-icon"]}>
             <Image src={menuIcon} alt="" layout="fill" />
           </div>
 
           <nav className={styles.nav}>
             {menu.map(({ title, path }) => (
               <Link key={path} href={path}>
-                <a className={styles['nav-item']}>{title}</a>
+                <a className={styles["nav-item"]}>{title}</a>
               </Link>
             ))}
           </nav>
@@ -59,10 +59,10 @@ export default function Navbar() {
       </header>
 
       {isOpen && (
-        <div className={styles['mobile-nav']}>
+        <div className={styles["mobile-nav"]}>
           {menu.map(({ title, path }) => (
             <Link key={path} href={path}>
-              <a onClick={handleClose} className={styles['mobile-nav-item']}>
+              <a onClick={handleClose} className={styles["mobile-nav-item"]}>
                 {title}
               </a>
             </Link>

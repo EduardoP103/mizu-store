@@ -9,7 +9,7 @@ export default function Hero() {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles["info-container"]}>
-          <Title h1>¡Encuentra hoy tu preda soñada!</Title>
+          <Title h1>¡Encuentra hoy tu prenda soñada!</Title>
           <Paragraph lg>
             Con nuestra gran selección de prendas, seguro que encontrarás la
             perfecta para ti. Empieza tu búsqueda hoy mismo.

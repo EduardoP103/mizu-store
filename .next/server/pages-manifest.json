@@ -1,5 +1,10 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/api/properties": "pages/api/properties.js",
+  "/api/property/[id]": "pages/api/property/[id].js",
+  "/property/[id]": "pages/property/[id].js",
+  "/properties": "pages/properties.js",
+  "/api/latest": "pages/api/latest.js"
 }
