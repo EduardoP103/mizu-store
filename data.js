@@ -20,7 +20,7 @@ export const properties = [
     description:
       "Material algodón jersey reactivo 30/1",
     amenities: ["Gimnasio", "Piscina", "Bar", "Cancha de tenis"],
-    status: "rent",
+    status: "ofert",
     type: "oversize",
   },
   {
@@ -37,14 +37,9 @@ export const properties = [
     color: "Color: Beige",
     price: "30",
     area: "M",
-    parking: 1,
-    elevator: true,
-    security: true,
-    description:
-      "Material algodón jersey reactivo 30/1",
-    amenities: ["Restaurante", "Terraza", "Gimnasio"],
-    status: "rent",
-    type: "oversize",
+    description: "Material algodón jersey reactivo 30/1",
+  status: "ofert",
+  type: "oversize",
   },
   {
     id: "DHwkuG59C3zB8ygaqLW7",
@@ -58,9 +53,7 @@ export const properties = [
     // bedrooms: 1,
     // bathrooms: 1,
     // parking: 1,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    amenities: ["Gimnasio", "Piscina", "Bar", "Cancha de tenis"],
+    description: "Material algodón jersey reactivo 30/1",
     status: "rent",
     type: "oversize",
   },

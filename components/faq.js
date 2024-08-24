@@ -16,11 +16,6 @@ const faqs = [
     answer:
       'El tiempo de entrega depende de tu ubicación. Ofrecemos delivery gratuito en todo Huacho, y los pedidos se entregan generalmente en un plazo de 2 a 5 días hábiles. Para otras zonas, consulta con nosotros.',
   },
-  {
-    question: '¿Puedo cambiar o devolver un polo?',
-    answer:
-      'Sí, aceptamos cambios y devoluciones dentro de los 7 días posteriores a la entrega, siempre que el polo esté en perfectas condiciones. Contáctanos por WhatsApp para gestionar el proceso.',
-  },
 ];
 
 export default function Faq() {
